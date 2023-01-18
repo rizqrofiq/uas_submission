@@ -10,7 +10,7 @@ locale.setlocale(locale.LC_ALL, 'id_ID.utf8')
 
 def employe_page():
     while True:
-        os.system("clear")
+        os.system("clear")  # use os.system("cls") for windows
         print("You're logged in as a employee")
         print(
             "Here are the options you can choose before using features that we've provided:\n")

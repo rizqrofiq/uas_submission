@@ -7,7 +7,7 @@ from session import session
 
 def job_ad_main():
     while True:
-        os.system("clear")
+        os.system("clear")  # use os.system("cls") for windows
         print("|++++++++++++++++ Job Advertising ++++++++++++++++++|")
         print("| Here are the options you can choose               |")
         print("| [1]. Post a job                                   |")

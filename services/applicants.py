@@ -7,7 +7,7 @@ from session import session
 
 def applicants_main():
     while True:
-        os.system("clear")
+        os.system("clear")  # use os.system("cls") for windows
         print("|++++++++++++++++++ Job Applicants +++++++++++++++++|")
         print("| Here are the options you can choose               |")
         print("| [1]. Show applicants                              |")
